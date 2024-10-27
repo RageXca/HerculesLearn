@@ -1251,11 +1251,11 @@ new_5-2,36,176,4	duplicate(NvGuide)	Guide#nv5	8W_SOLDIER
 		
 	}
 }
-new_1-3,96,30,4	duplicate(NvBradeB)	Brade#nv1b	4_M_JOB_KNIGHT1
-new_2-3,96,30,4	duplicate(NvBradeB)	Brade#nv2b	4_M_JOB_KNIGHT1
-new_3-3,96,30,4	duplicate(NvBradeB)	Brade#nv3b	4_M_JOB_KNIGHT1
-new_4-3,96,30,4	duplicate(NvBradeB)	Brade#nv4b	4_M_JOB_KNIGHT1
-new_5-3,96,30,4	duplicate(NvBradeB)	Brade#nv5b	4_M_JOB_KNIGHT1
+new_1-3,96,35,4	duplicate(NvBradeB)	Brade#nv1b	4_M_JOB_KNIGHT1
+new_2-3,96,35,4	duplicate(NvBradeB)	Brade#nv2b	4_M_JOB_KNIGHT1
+new_3-3,96,35,4	duplicate(NvBradeB)	Brade#nv3b	4_M_JOB_KNIGHT1
+new_4-3,96,35,4	duplicate(NvBradeB)	Brade#nv4b	4_M_JOB_KNIGHT1
+new_5-3,96,35,4	duplicate(NvBradeB)	Brade#nv5b	4_M_JOB_KNIGHT1
 
 -	script	Swordman Guide#newbe10::NvSwordman	FAKE_NPC,{
 	if (job_novice_q < 15) {
@@ -1411,11 +1411,11 @@ new_5-3,96,30,4	duplicate(NvBradeB)	Brade#nv5b	4_M_JOB_KNIGHT1
 		close;
 	}
 }
-new_1-3,97,41,3	duplicate(NvSwordman)	Swordman Guide#nv1	4_F_JOB_KNIGHT
-new_2-3,97,41,3	duplicate(NvSwordman)	Swordman Guide#nv2	4_F_JOB_KNIGHT
-new_3-3,97,41,3	duplicate(NvSwordman)	Swordman Guide#nv3	4_F_JOB_KNIGHT
-new_4-3,97,41,3	duplicate(NvSwordman)	Swordman Guide#nv4	4_F_JOB_KNIGHT
-new_5-3,97,41,3	duplicate(NvSwordman)	Swordman Guide#nv5	4_F_JOB_KNIGHT
+new_1-3,85,34,3	duplicate(NvSwordman)	Swordman Guide#nv1	4_F_JOB_KNIGHT
+new_2-3,85,34,3	duplicate(NvSwordman)	Swordman Guide#nv2	4_F_JOB_KNIGHT
+new_3-3,85,34,3	duplicate(NvSwordman)	Swordman Guide#nv3	4_F_JOB_KNIGHT
+new_4-3,85,34,3	duplicate(NvSwordman)	Swordman Guide#nv4	4_F_JOB_KNIGHT
+new_5-3,85,34,3	duplicate(NvSwordman)	Swordman Guide#nv5	4_F_JOB_KNIGHT
 
 -	script	Acolyte Guide#newbe10::NvAcolyte	FAKE_NPC,{
 	if (job_novice_q < 15) {
@@ -1501,11 +1501,11 @@ new_5-3,97,41,3	duplicate(NvSwordman)	Swordman Guide#nv5	4_F_JOB_KNIGHT
 		close;
 	}
 }
-new_1-3,101,41,3	duplicate(NvAcolyte)	Acolyte Guide#nv1	4_F_SISTER
-new_2-3,101,41,3	duplicate(NvAcolyte)	Acolyte Guide#nv2	4_F_SISTER
-new_3-3,101,41,3	duplicate(NvAcolyte)	Acolyte Guide#nv3	4_F_SISTER
-new_4-3,101,41,3	duplicate(NvAcolyte)	Acolyte Guide#nv4	4_F_SISTER
-new_5-3,101,41,3	duplicate(NvAcolyte)	Acolyte Guide#nv5	4_F_SISTER
+new_1-3,112,152,3	duplicate(NvAcolyte)	Acolyte Guide#nv1	4_F_SISTER
+new_2-3,112,152,3	duplicate(NvAcolyte)	Acolyte Guide#nv2	4_F_SISTER
+new_3-3,112,152,3	duplicate(NvAcolyte)	Acolyte Guide#nv3	4_F_SISTER
+new_4-3,112,152,3	duplicate(NvAcolyte)	Acolyte Guide#nv4	4_F_SISTER
+new_5-3,112,152,3	duplicate(NvAcolyte)	Acolyte Guide#nv5	4_F_SISTER
 
 -	script	Thief Guide#newbe10::NvThief	FAKE_NPC,{
 	if (job_novice_q < 15) {
@@ -1638,11 +1638,11 @@ new_5-3,101,41,3	duplicate(NvAcolyte)	Acolyte Guide#nv5	4_F_SISTER
 		close;
 	}
 }
-new_1-3,105,41,3	duplicate(NvThief)	Thief Guide#nv1	2_M_THIEFMASTER
-new_2-3,105,41,3	duplicate(NvThief)	Thief Guide#nv2	2_M_THIEFMASTER
-new_3-3,105,41,3	duplicate(NvThief)	Thief Guide#nv3	2_M_THIEFMASTER
-new_4-3,105,41,3	duplicate(NvThief)	Thief Guide#nv4	2_M_THIEFMASTER
-new_5-3,105,41,3	duplicate(NvThief)	Thief Guide#nv5	2_M_THIEFMASTER
+new_1-3,65,45,3	duplicate(NvThief)	Thief Guide#nv1	2_M_THIEFMASTER
+new_2-3,65,45,3	duplicate(NvThief)	Thief Guide#nv2	2_M_THIEFMASTER
+new_3-3,65,45,3	duplicate(NvThief)	Thief Guide#nv3	2_M_THIEFMASTER
+new_4-3,65,45,3	duplicate(NvThief)	Thief Guide#nv4	2_M_THIEFMASTER
+new_5-3,65,45,3	duplicate(NvThief)	Thief Guide#nv5	2_M_THIEFMASTER
 
 -	script	Merchant Guide#newbe10::NvMerchant	FAKE_NPC,{
 	if (job_novice_q < 15) {
@@ -1794,11 +1794,11 @@ new_5-3,105,41,3	duplicate(NvThief)	Thief Guide#nv5	2_M_THIEFMASTER
 		close;
 	}
 }
-new_1-3,109,41,3	duplicate(NvMerchant)	Merchant Guide#nv1	4W_M_01
-new_2-3,109,41,3	duplicate(NvMerchant)	Merchant Guide#nv2	4W_M_01
-new_3-3,109,41,3	duplicate(NvMerchant)	Merchant Guide#nv3	4W_M_01
-new_4-3,109,41,3	duplicate(NvMerchant)	Merchant Guide#nv4	4W_M_01
-new_5-3,109,41,3	duplicate(NvMerchant)	Merchant Guide#nv5	4W_M_01
+new_1-3,88,124,3	duplicate(NvMerchant)	Merchant Guide#nv1	4W_M_01
+new_2-3,88,124,3	duplicate(NvMerchant)	Merchant Guide#nv2	4W_M_01
+new_3-3,88,124,3	duplicate(NvMerchant)	Merchant Guide#nv3	4W_M_01
+new_4-3,88,124,3	duplicate(NvMerchant)	Merchant Guide#nv4	4W_M_01
+new_5-3,88,124,3	duplicate(NvMerchant)	Merchant Guide#nv5	4W_M_01
 
 -	script	Archer Guide#newbe10::NvArcher	FAKE_NPC,{
 	if (job_novice_q < 15) {
@@ -1891,11 +1891,11 @@ new_5-3,109,41,3	duplicate(NvMerchant)	Merchant Guide#nv5	4W_M_01
 		close;
 	}
 }
-new_1-3,113,41,3	duplicate(NvArcher)	Archer Guide#nv1	4_F_JOB_HUNTER
-new_2-3,113,41,3	duplicate(NvArcher)	Archer Guide#nv2	4_F_JOB_HUNTER
-new_3-3,113,41,3	duplicate(NvArcher)	Archer Guide#nv3	4_F_JOB_HUNTER
-new_4-3,113,41,3	duplicate(NvArcher)	Archer Guide#nv4	4_F_JOB_HUNTER
-new_5-3,113,41,3	duplicate(NvArcher)	Archer Guide#nv5	4_F_JOB_HUNTER
+new_1-3,115,131,3	duplicate(NvArcher)	Archer Guide#nv1	4_F_JOB_HUNTER
+new_2-3,115,131,3	duplicate(NvArcher)	Archer Guide#nv2	4_F_JOB_HUNTER
+new_3-3,115,131,3	duplicate(NvArcher)	Archer Guide#nv3	4_F_JOB_HUNTER
+new_4-3,115,131,3	duplicate(NvArcher)	Archer Guide#nv4	4_F_JOB_HUNTER
+new_5-3,115,131,3	duplicate(NvArcher)	Archer Guide#nv5	4_F_JOB_HUNTER
 
 -	script	Mage Guide#newbe10::NvMage	FAKE_NPC,{
 	if (job_novice_q < 15) {
@@ -2041,11 +2041,11 @@ new_5-3,113,41,3	duplicate(NvArcher)	Archer Guide#nv5	4_F_JOB_HUNTER
 		close;
 	}
 }
-new_1-3,117,41,3	duplicate(NvMage)	Mage Guide#nv1	2_F_MAGICMASTER
-new_2-3,117,41,3	duplicate(NvMage)	Mage Guide#nv2	2_F_MAGICMASTER
-new_3-3,117,41,3	duplicate(NvMage)	Mage Guide#nv3	2_F_MAGICMASTER
-new_4-3,117,41,3	duplicate(NvMage)	Mage Guide#nv4	2_F_MAGICMASTER
-new_5-3,117,41,3	duplicate(NvMage)	Mage Guide#nv5	2_F_MAGICMASTER
+new_1-3,101,71,3	duplicate(NvMage)	Mage Guide#nv1	2_F_MAGICMASTER
+new_2-3,101,71,3	duplicate(NvMage)	Mage Guide#nv2	2_F_MAGICMASTER
+new_3-3,101,71,3	duplicate(NvMage)	Mage Guide#nv3	2_F_MAGICMASTER
+new_4-3,101,71,3	duplicate(NvMage)	Mage Guide#nv4	2_F_MAGICMASTER
+new_5-3,101,71,3	duplicate(NvMage)	Mage Guide#nv5	2_F_MAGICMASTER
 
 -	script	Bruce#nv::NvBruce	FAKE_NPC,{
 	mes "[Bruce]";
@@ -2252,23 +2252,23 @@ new_5-3,97,50,4	duplicate(NvEden)	Eden Group Officer#nv5	4_F_NOVICE,5,5
 		next;
 		mes "[Trainer Brutus]";
 		mes "Level 1 has the weakest monsters.";
-		mes "There you'll find Porings, Drops, and Lunatics.";
+		mes "There you'll find Porings, Drops, Lunatics and ChonChon.";
 		next;
 		mes "[Trainer Brutus]";
 		mes "Level 2 is more challenging.";
-		mes "There you'll find Porings, Lunatics, Willows, and Chonchons.";
+		mes "There you'll find Porings, Lunatics, Willows, Chonchons, Condor, Picky and Roda Frog.";
 		next;
 		mes "[Trainer Brutus]";
 		mes "Level 3 is the same as Level 2.";
-		mes "There you'll find Porings, Lunatics, Willows, and Chonchons.";
+		mes "There you'll find Porings, Lunatics, Willows, Chonchons, Condor, Picky and Roda Frog.";
 		next;
 		mes "[Trainer Brutus]";
 		mes "Level 4 has stronger monsters.";
-		mes "There you'll find Willows, Hornets, Pickys, and Fabres.";
+		mes "There you'll find Willows, Hornets, Pickys, Fabres, Rocker, Thief Bug, Thief Bug Female and Spore.";
 		next;
 		mes "[Trainer Brutus]";
 		mes "Level 5 is the same as Level 4.";
-		mes "There you'll find Willows, Hornets, Pickys, and Fabres.";
+		mes "There you'll find Willows, Hornets, Pickys, Fabres, Rocker, Thief Bug, Thief Bug Female and Spore.";
 		close;
 	case 3:
 		mes "[Trainer Brutus]";
@@ -2277,11 +2277,11 @@ new_5-3,97,50,4	duplicate(NvEden)	Eden Group Officer#nv5	4_F_NOVICE,5,5
 		close;
 	}
 }
-new_1-3,103,50,4	duplicate(NvBrutus)	Level 1 Trainer#nv1	4_M_02
-new_2-3,103,50,4	duplicate(NvBrutus)	Level 2 Trainer#nv2	4_M_02
-new_3-3,103,50,4	duplicate(NvBrutus)	Level 3 Trainer#nv3	4_M_02
-new_4-3,103,50,4	duplicate(NvBrutus)	Level 4 Trainer#nv4	4_M_02
-new_5-3,103,50,4	duplicate(NvBrutus)	Level 5 Trainer#nv5	4_M_02
+new_1-3,108,34,4	duplicate(NvBrutus)	Level 1 Trainer#nv1	4_M_02
+new_2-3,108,34,4	duplicate(NvBrutus)	Level 2 Trainer#nv2	4_M_02
+new_3-3,108,34,4	duplicate(NvBrutus)	Level 3 Trainer#nv3	4_M_02
+new_4-3,108,34,4	duplicate(NvBrutus)	Level 4 Trainer#nv4	4_M_02
+new_5-3,108,34,4	duplicate(NvBrutus)	Level 5 Trainer#nv5	4_M_02
 
 //== Monster Spawns ========================================
 new_1-3,0,0,0,0	monster	Poring	1002,20,0,0,0
