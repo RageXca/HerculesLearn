@@ -1243,83 +1243,12 @@ new_5-2,36,176,4	duplicate(NvGuide)	Guide#nv5	8W_SOLDIER
 		mes "If you want to hear information about each job, talk to the people dispatched by the Job Guilds.";
 		next;
 		mes "[Brade]";
-		mes "I think you've learned enough, do you want to quit and go to your first town?";
-		next;
-		switch(select("I will stay little longer.", "I want to quit and go to the town.")) {
-		case 1:
-			mes "[Brade]";
-			mes "It's ok to stay here and practice until you think you are ready.";
-			next;
-			mes "[Brade]";
-			mes "Try using the job manuals to find out the characteristics of each job's skills.";
-			mes "I will restore your HP and SP... Keep it up.";
-			npcskill "AL_HEAL",11,99,60;
-			percentheal 0,100;
-			close;
-		case 2:
-			mes "[Brade]";
-			mes "Looks like you are ready.";
-			mes "I guess you have made up your mind, huh?";
-			mes "Well, where do you want to go?";
-			next;
-			switch(select("Prontera", "Morroc", "Payon", "Alberta", "Geffen", "Cancel")) {
-			case 1:
-				mes "[Brade]";
-				mes "Prontera, the Capital city of the Rune-Midgarts Kingdom.";
-				mes "Take care and god bless you on your journey.";
-				callfunc "F_NvErase";
-				close2;
-				savepoint "prontera",117,72;
-				warp "prontera",150,50;
-				end;
-			case 2:
-				mes "[Brade]";
-				mes "The Desert Town, Morroc...";
-				mes "There's lots of hidden stories within that town.";
-				mes "Take care.";
-				callfunc "F_NvErase";
-				close2;
-				savepoint "morocc",150,99;
-				warp "morocc",155,110;
-				end;
-			case 3:
-				mes "[Brade]";
-				mes "You've selected Payon.";
-				mes "God bless you.";
-				callfunc "F_NvErase";
-				close2;
-				savepoint "payon",70,100;
-				warp "payon",166,67;
-				end;
-			case 4:
-				mes "[Brade]";
-				mes "Alberta, the Port City.";
-				mes "It's the main hub of all trades.";
-				mes "If you want to meet with other civilizations, you have to go to Alberta first.";
-				mes "Well then, god bless you on your soul.";
-				callfunc "F_NvErase";
-				close2;
-				savepoint "alberta",30,232;
-				warp "alberta",114,58;
-				end;
-			case 5:
-				mes "[Brade]";
-				mes "Geffen, the City of Magic.";
-				mes "Geffen Tower in the middle of the city is nice.";
-				mes "I will send you near the Geffen fountain.";
-				mes "May Goddess Freya bless you.";
-				callfunc "F_NvErase";
-				close2;
-				savepoint "geffen",119,37;
-				warp "geffen",122,65;
-				end;
-			case 6:
-				mes "[Brade]";
-				mes "Yeah... Think with prudence.";
-				mes "...Meet up with the people from each guild.";
-				close;
-			}
-		}
+		mes "I will restore your HP and SP... Keep it up.";
+		npcskill "AL_HEAL",11,99,60;
+		percentheal 0,100;
+		close;
+			
+		
 	}
 }
 new_1-3,96,30,4	duplicate(NvBradeB)	Brade#nv1b	4_M_JOB_KNIGHT1
