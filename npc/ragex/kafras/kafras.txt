@@ -1,4 +1,4 @@
-//================= Hercules Configuration ================================
+//================= Hercules Script =======================================
 //=       _   _                     _
 //=      | | | |                   | |
 //=      | |_| | ___ _ __ ___ _   _| | ___  ___
@@ -9,8 +9,8 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2024 Hercules Dev Team
-//= Copyright (C) Athena Dev Teams
+//= Copyright (C) 2013-2024 Hercules Dev Team
+//= Copyright (C) Daegaladh
 //=
 //= Hercules is free software: you can redistribute it and/or modify
 //= it under the terms of the GNU General Public License as published by
@@ -25,25 +25,18 @@
 //= You should have received a copy of the GNU General Public License
 //= along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //=========================================================================
-//= Pre-Renewal Warp Scripts
+//= Kafras (Cities/Dungeons/Fields)
+//================= Description ===========================================
+//= Kafras (Cities/Dungeons/Fields)
+//================= Current Version =======================================
+//= 1.0
 //=========================================================================
 
-//================= Cities ================================================
-"npc/re/warps/cities/izlude.txt",
-"npc/pre-re/warps/cities/rachel.txt",
-"npc/pre-re/warps/cities/yggdrasil.txt",
-
-//================= Fields ================================================
-"npc/pre-re/warps/fields/com_fild.txt",
-"npc/pre-re/warps/fields/geffen_fild.txt",
-"npc/pre-re/warps/fields/hugel_fild.txt",
-"npc/pre-re/warps/fields/morroc_fild.txt",
-"npc/pre-re/warps/fields/payon_fild.txt",
-"npc/re/warps/fields/prontera_fild.txt",
-"npc/pre-re/warps/fields/rachel_fild.txt",
-"npc/pre-re/warps/fields/veins_fild.txt",
-"npc/pre-re/warps/fields/yuno_fild.txt",
-
-//================= Others ================================================
-"npc/pre-re/warps/other/arena.txt",
-"npc/pre-re/warps/other/sign.txt",
+//== Izlude OLD ================================================
+//izlude,134,87,3	duplicate(kaf_izlude)	Kafra Employee#iz
+//== Izlude ================================================
+izlude,128,148,6	duplicate(kaf_izlude)	Kafra Employee#iz	4_F_KAFRA1
+izlude_a,128,148,6	duplicate(kaf_izlude)	Kafra Employee#iz_a	4_F_KAFRA1
+izlude_b,128,148,6	duplicate(kaf_izlude)	Kafra Employee#iz_b	4_F_KAFRA1
+izlude_c,128,148,6	duplicate(kaf_izlude)	Kafra Employee#iz_c	4_F_KAFRA1
+izlude_d,128,148,6	duplicate(kaf_izlude)	Kafra Employee#iz_d	4_F_KAFRA1

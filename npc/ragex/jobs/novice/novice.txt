@@ -2111,7 +2111,7 @@ new_4-3,121,41,3	duplicate(NvBruce)	Bruce#nv4	1_M_LIBRARYMASTER
 new_5-3,121,41,3	duplicate(NvBruce)	Bruce#nv5	1_M_LIBRARYMASTER
 
 //== Eden Group Officer (iRO only) =========================
-/*
+//-/*
 -	script	Eden Group Officer::NvEden	FAKE_NPC,{
 	if (BaseLevel < 10) {
 		mes "[Eden Group Officer]";
@@ -2218,7 +2218,7 @@ new_2-3,97,50,4	duplicate(NvEden)	Eden Group Officer#nv2	4_F_NOVICE,5,5
 new_3-3,97,50,4	duplicate(NvEden)	Eden Group Officer#nv3	4_F_NOVICE,5,5
 new_4-3,97,50,4	duplicate(NvEden)	Eden Group Officer#nv4	4_F_NOVICE,5,5
 new_5-3,97,50,4	duplicate(NvEden)	Eden Group Officer#nv5	4_F_NOVICE,5,5
-*/
+//-*/
 
 //== Trainer ===============================================
 -	script	::NvBrutus	FAKE_NPC,{
