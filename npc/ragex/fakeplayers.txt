@@ -1,6 +1,6 @@
 // Fake Valkyrian Armor Merchant NPC Script
 payon,161,98,5	trader	Valkyrie Merchant	4_F_NOVICE,{
 OnInit:
-    sellitem 2357, 34000000;       // Valkyrie Armor, price 50 zeny
-    sellitem 2137, 6000000;       // Valkyrian Shield, price 100 zeny
+    sellitem 2357, 34000000;       // Valkyrie Armor, price 34M zeny
+    sellitem 2137, 6000000;       // Valkyrian Shield, price 6M zeny
 }
