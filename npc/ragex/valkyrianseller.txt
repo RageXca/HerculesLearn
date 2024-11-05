@@ -4,5 +4,4 @@ OnInit:
     sellitem 2357, 34000000;       // Valkyrie Armor, price 34M zeny
     sellitem 2137, 6000000;       // Valkyrian Shield, price 6M zeny
 }
-//dynamic shops for item behavior - items counts
-//scr edit for Vending appearance - Vending icon on top
+

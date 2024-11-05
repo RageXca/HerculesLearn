@@ -1,0 +1,14 @@
+payon,162,98,5	script	TestSHop	4_F_NOVICE,{
+
+    OnInit:
+        // Define the shop with items and prices
+        shop VendingShop -1, 501:10, 502:10, 503:10;
+        end;
+
+    OnTouch:
+        // Open the shop when the player interacts with the NPC
+        npcsellitem VendingShop;
+        end;
+}
+
+
